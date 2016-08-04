@@ -1,0 +1,132 @@
+/*
+Theme Name: Market
+Author: Rohit Tripathi
+Theme URI: http://rohitink.com/2014/03/13/market/ 
+Author URI: http://rohitink.com
+Template: market
+Description: Market is a Beautiful WordPress theme, especially designed for WooCommerce with loads of features. This theme comes with lots of features like Social Icons, Multiple Menu Bars, Stunning Animations, Well Designed Shop, Custom Widgets, Full With Page Layout and a Proper Theme options Panel. Market is the Best Free theme to build your eCommerce Website. Market theme works absolutely well on non eCommerce sites as well. Note: Market 2.0 is a Major Upgrade, where we have Replace Theme Options with the Awesome WordPress Customizer.
+Version: 2.0.1.2
+License: GNU General Public License
+License URI: license.txt
+Text Domain: market
+Domain Path: /languages/
+Tags: custom-background, two-columns, three-columns, right-sidebar, grid-layout, custom-menu, sticky-post, theme-options, threaded-comments, translation-ready, left-sidebar, custom-menu, editor-style, featured-images, full-width-template, sticky-post, theme-options, threaded-comments, photography, footer-widgets, e-commerce, blog, entertainment, news
+
+Market is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
+Market WordPress Theme, Copyright 2014 Rohit Tripathi.
+Market WordPress Theme is distributed under the terms of the GNU GPL v3.
+
+This Document Contains only the Reset CSS Part. For Modifying the looks of the theme, please look into the css/skins/ folder.
+*/
+
+#top-bar{
+    display: none !important;
+}
+.dickinson{
+    line-height:1px;
+    text-decoration: 
+}
+
+#primary {
+    background-color: rgba(255, 255, 255, 0) !important;
+font-family: Muli;
+letter-spacing: -1px !important;
+font-size: 101%;
+}
+
+
+#header-top {
+    background: none !important;
+}
+#masthead{
+background-color: none;}
+
+/*body.custom-background {
+    background-image: url('http://www.plantlanguagehealing.com/wp-content/uploads/2016/07/sm-flower-1.jpg');
+    background-repeat: repeat-y;
+    background-position: bottom center;
+   /* background-attachment: fixed;
+background-size:100%, 100%;
+}*/
+
+.menu {
+    clear: both;
+    display: block;
+    display: inline-block;
+    background: #d8d57d;
+    padding-bottom: 0px;
+    border: none;
+    text-align: center !important;
+    margin-top: -15px;
+    text-align: center !important;
+font-family: Cormorant;
+font-size: 18px;
+letter-spacing: 1.25px;
+
+}
+#header-2 {
+    padding: 5px;
+    width: 100%;
+    background: #d8d57d !important;
+    border-bottom: none !important;
+}
+.td_mobile_menu_wrap{
+background: #d8d57d !important;}
+
+#nav-container{
+background: #d8d57d !important;
+}
+
+#site-navigation li:hover > a {
+    background: #d8d57d !important;
+    color: #716995 !important;
+    border-top: 2px solid #2d2758 !important;
+    padding-top: 10px !important;
+}
+
+
+#site-navigation ul > li > a {
+    padding-bottom: 15px !important;
+    padding-top: 15px !important;
+}
+
+/*.site-content{
+    background-image: url('sm-flower.jpg') !important;
+    margin-top: 10px !important;
+}
+*/
+
+#parallax-bg{
+    background-image: url('sm-flower.jpg') !important;
+    background-size: 100%, 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#content{
+    background: rgba(210, 215, 150, 0.5) !important;
+    border: none !important;
+    border-radius: 10px !important;
+    margin-top: 5% !important;
+    margin-left: 10% !important;
+    margin-right: 10% !important;}
+h1{color: #FAFAC8 !important;
+font-size: 300% !important;
+letter-spacing: 1.25px !important;}
+p{color:#2d2758 !important;
+font-size: 102% !important;}
+
+h3{color: #d4d485 !important;}
+.entry-title{
+    font-family: Cormorant;
+}
+
+    @media (max-width: 480px) {
+  body{      
+  background-color: #717995 !important;
+  }
+@media (max-width: 650px) {
+	 body{ background-color: #717995 !important;
+
+	}
